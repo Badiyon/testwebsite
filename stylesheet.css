@@ -1,4 +1,4 @@
-body{
+.mainbody{
     background-color: black;
 }
 
@@ -163,4 +163,12 @@ dd {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.misclinks{
+    text-align: center;
+    display: block;
+    font-size: 28pt;
+    margin-bottom: 30px;
+    
 }
