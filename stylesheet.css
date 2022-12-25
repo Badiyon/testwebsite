@@ -1,5 +1,68 @@
 body{
-    background-color: white;
+    background-color: black;
+}
+
+header{
+    align-items:center;
+    height: 166px;
+    padding-bottom: 16px;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: relative;
+    z-index: 3;
+}
+
+nav{
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: left;
+    float: left;
+    max-width: 100%;
+    width: 29%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.lefthead{
+    padding-left: 0 !important;
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    color: white;
+}
+
+.centerhead{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 41%;
+    flex: 1;
+    box-sizing: border-box;
+
+    color: white;
+
+}
+.centertext{
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 6%;
+    padding-top: 0px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    clear: both;
+    word-wrap: break-word;
+    box-sizing: border-box;
 }
 
 
@@ -9,6 +72,7 @@ body{
     display: block;
     font-weight: normal;
     font-size: 28pt;
+    color: white;
 }
 
 .startlinks {
@@ -16,6 +80,18 @@ body{
     display: block;
     font-size: 28pt;
     margin-bottom: 30px;
+    color: white;
+}
+
+.kangaroopic{
+    width: 256px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 256px;
+    
 }
 
 
