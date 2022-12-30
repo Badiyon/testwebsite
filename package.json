@@ -1,0 +1,26 @@
+{
+  "name": "testwebsite",
+  "version": "1.0.0",
+  "description": "test website",
+  "main": "jscode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Badiyon/testwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Badiyon/testwebsite/issues"
+  },
+  "homepage": "https://github.com/Badiyon/testwebsite#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^19.4.1",
+    "xlsx": "^0.18.5"
+  }
+}
